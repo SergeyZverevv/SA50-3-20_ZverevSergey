@@ -1,0 +1,97 @@
+.first{
+width: 40px;
+height: 40px;
+}
+
+.Block1{
+background: #333333;
+border-radius: 3px;
+
+}
+
+.Block2{
+    background: #4F4F4F;
+    border-radius: 3px;
+}
+
+.Block3{
+    background: #828282;
+    border-radius: 3px;
+}
+
+.Block4{
+    background: #BDBDBD;
+    border-radius: 3px;
+}
+
+.Block5{
+    background: #E0E0E0;
+    border-radius: 3px;
+}
+
+.Block6{
+    background: #F2F2F2;
+    border-radius: 3px;
+}
+
+.Block7{
+    background: #EB5757;
+    border-radius: 3px;
+}
+
+.Block8{
+    background: #F2994A;
+    border-radius: 3px;
+}
+
+.Block9{
+    background: #F2C94C;
+    border-radius: 3px;
+}
+
+.Block10{
+    background: #219653;
+    border-radius: 3px;
+}
+
+.Block11{
+    background: #27AE60;
+    border-radius: 3px;
+}
+
+.Block12{
+    background: #6FCF97;
+    border-radius: 3px;
+}
+
+.Block13{
+    background: #2F80ED;
+    border-radius: 3px;
+}
+
+.Block14{
+    background: #2D9CDB;
+    border-radius: 3px;
+}
+
+.Block15{
+    background: #56CCF2;
+    border-radius: 3px;
+}
+
+.Block16{
+    background: #9B51E0;
+    border-radius: 3px;
+}
+
+.Block17{
+    background: #BB6BD9;
+    border-radius: 3px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 340px;
+    margin-bottom: 20px;    
+}
