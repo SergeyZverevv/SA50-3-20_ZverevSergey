@@ -3,6 +3,15 @@
     height: 80px;
 }
 
+.second{
+    width: 100vw; 
+    height: 800px;
+}
+
+.third{
+    width: 150px;
+    height: 150px;
+}
 .area1{
     width: 100vw; 
     height: 800px;
@@ -66,3 +75,23 @@ top: -15px; left: 55px;
 top: -50px; left: 90px;   
 }
 
+.area2{
+    background-color: greenyellow;
+    width: 1000px; 
+    height: 700px;
+    margin-left: 500px;
+    margin-top: 50px;
+    
+}
+
+.Block10{
+    background-color: white;
+    position: relative;
+top: -650px; left: 550px;   
+}
+
+.Block11{
+    background-color: white;
+    position: relative;
+top: -350px; left: 1300px;   
+}
