@@ -1,0 +1,37 @@
+.first{
+    width: 80px;
+    height: 80px;
+}
+
+.area1{
+    width: 100vw; 
+    height: 800px;
+    border: 1px solid red;
+} 
+
+.Block1{
+    border: 3px solid red;
+    position: relative;
+    top: 20px; left: 20px;    
+}
+
+.Block2{
+    border: 3px solid purple;
+    position: relative;
+top: 40px; left: 140px;   
+}
+
+.Block3{
+    border: 3px solid green;
+    position: relative;
+top: 60px; left: 260px;   
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 240px;
+    margin-bottom: 240px;
+    margin-top: 100px;    
+}
+    
