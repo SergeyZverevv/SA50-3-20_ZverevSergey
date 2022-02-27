@@ -95,3 +95,25 @@ top: -650px; left: 550px;
     position: relative;
 top: -350px; left: 1300px;   
 }
+.box {
+    background: green;
+    width: 500px;
+    height: 100px;
+    color: white;
+    font-size: 190%;
+    text-align: center;
+    margin-left: 150px;
+  }
+  #one { 
+    position: sticky;
+    top: 80px;
+    left: 10px;
+  }
+  .outer {
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+    padding-left: 150px;
+  }
+  
+  
