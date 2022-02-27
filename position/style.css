@@ -45,3 +45,24 @@ top: -15px; left: 55px;
     position: relative;
 top: -50px; left: 90px;   
 }
+
+.Block7{
+    background-color: red;
+    position: relative;
+top: 20px; left: 20px;   
+}
+
+.Block8{
+    background-color: purple;
+    position: relative;
+top: -15px; left: 55px;
+    z-index: 1;
+    
+}
+
+.Block9{
+    background-color: green;
+    position: relative;
+top: -50px; left: 90px;   
+}
+
