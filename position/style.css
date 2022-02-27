@@ -1,0 +1,119 @@
+.first{
+    width: 80px;
+    height: 80px;
+}
+
+.second{
+    width: 100vw; 
+    height: 800px;
+}
+
+.third{
+    width: 150px;
+    height: 150px;
+}
+.area1{
+    width: 100vw; 
+    height: 800px;
+    border: 1px solid red;
+    margin-top: 100px;
+} 
+
+.Block1{
+    border: 3px solid red;
+    position: relative;
+    top: 20px; left: 20px;    
+}
+
+.Block2{
+    border: 3px solid purple;
+    position: relative;
+top: 40px; left: 140px;   
+}
+
+.Block3{
+    border: 3px solid green;
+    position: relative;
+top: 60px; left: 260px;   
+}
+
+.Block4{
+    background-color: red;
+    position: relative;
+top: 20px; left: 20px;   
+}
+
+.Block5{
+    background-color: purple;
+    position: relative;
+top: -15px; left: 55px;   
+}
+
+.Block6{
+    background-color: green;
+    position: relative;
+top: -50px; left: 90px;   
+}
+
+.Block7{
+    background-color: red;
+    position: relative;
+top: 20px; left: 20px;   
+}
+
+.Block8{
+    background-color: purple;
+    position: relative;
+top: -15px; left: 55px;
+    z-index: 1;
+    
+}
+
+.Block9{
+    background-color: green;
+    position: relative;
+top: -50px; left: 90px;   
+}
+
+.area2{
+    background-color: greenyellow;
+    width: 1000px; 
+    height: 700px;
+    margin-left: 500px;
+    margin-top: 50px;
+    
+}
+
+.Block10{
+    background-color: white;
+    position: relative;
+top: -650px; left: 550px;   
+}
+
+.Block11{
+    background-color: white;
+    position: relative;
+top: -350px; left: 1300px;   
+}
+.box {
+    background: green;
+    width: 500px;
+    height: 100px;
+    color: white;
+    font-size: 190%;
+    text-align: center;
+    margin-left: 150px;
+  }
+  #one { 
+    position: sticky;
+    top: 80px;
+    left: 10px;
+  }
+  .outer {
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+    padding-left: 150px;
+  }
+  
+  
