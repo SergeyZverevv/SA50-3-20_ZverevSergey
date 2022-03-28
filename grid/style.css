@@ -67,35 +67,35 @@ nav {
                         "q5 q5 q8 q8";
 
 }
-.p1 {
+.d1 {
     grid-area: q1;
     background-image: url(asserts/img/1.jpg);
 }
-.p2 {
+.d2 {
     grid-area: q2;
     background-image: url(asserts/img/2.jpg);
 }
-.p3 {
+.d3 {
     grid-area: q4;
     background-image: url(asserts/img/9.jpg)
 }
-.p4 {
+.d4 {
     grid-area: q3;
     background-image: url(asserts/img/4.jpg)
 }
-.p5 {
+.d5 {
     grid-area: q5;
     background-image: url(asserts/img/5.jpg)
 }
-.p6 {
+.d6 {
     grid-area: q6;
     background-image: url(asserts/img/6.jpg)
 }
-.p7 {
+.d7 {
     grid-area: q7;
     background-image: url(asserts/img/7.jpg)
 }
-.p8 {
+.d8 {
     grid-area: q8;
     background-image: url(asserts/img/8.jpg)
 }
