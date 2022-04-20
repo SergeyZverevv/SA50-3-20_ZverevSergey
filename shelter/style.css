@@ -4,84 +4,84 @@
     list-style-type: none;
     box-sizing: border-box;
 }
-.maket {
-    width: 100%;
-    height: 100vh;
-    background-image: url(start-screen-gradient-background.png);
+
+html {
+    height: 100%;
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%,
+    #262425 100%);
 }
-.w {
-    position: absolute;
-    top: 60px;
-    left: 40px;
-    right: 40px;
-    width:1200px;
+
+nav {
+    margin-top: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    width: 600px;
     height: 60px;
+}
+
+.list {
+    width: 443px;
+    height: 27px;
     justify-content: space-between;
     align-items: center;
     display: flex;
 }
 
-.block1{
-    width: 184px;
+.logo {
+    width: 600px;
     height: 60px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
 }
 
-.block2 {
+.logo__title {
     display: flex;
-align-items: center;
+    flex-direction: column;
     width: 184px;
-    height: 35px;
+    height: 60px;
+    align-items: center;
+}
+
+.title {
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
-    font-size: 31px;
+    font-size: 32px;
     line-height: 110%;
     color: #F1CDB3;
     letter-spacing: 0.06em;
 }
-.block3 {
-    display: flex;
-align-items: center;
-    width: 184px;
-    height: 15px;
-    margin-top: 10px;
+
+.subtitle {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
-    color: #FFFFFF;
     letter-spacing: 0.1em;
-}
-nav {
-    position: absolute;
-    right: 40px;
-    display: flex;
-    justify-content: center;
-}
-.list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 443px;
-    height: 27px;
-}
-.list_item_link {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 160%;
-    color: #CDCDCD;
-    text-decoration: none;
+    color: #FFFFFF;
 }
 
-.list_item_link:active {
+.list__item__link {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-    color: #FAFAFA;
+    text-decoration: none;
+    color: #CDCDCD;
+    transition: 0.3s;
+}
+
+.list__item__link:hover {
+    color: #FFFFFF;
     border-bottom: 3px solid #F1CDB3;
 }
